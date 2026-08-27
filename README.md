@@ -16,9 +16,8 @@ From a kaeru checkout, on a machine that still has network:
 ```
 
 Then carry the whole directory to the machine that does not, and build there.
-See [`docs/offline-build.md`](https://github.com/LamantinAI/kaeru/blob/main/docs/offline-build.md)
-in the main repository for the full procedure, including the C++ toolchain
-kaeru needs for RocksDB whether or not you are offline.
+See `docs/offline-build.md` in the main repository for the full procedure,
+including the C++ toolchain kaeru needs for RocksDB.
 
 ## Tags
 
@@ -31,9 +30,7 @@ git clone --depth 1 --branch v0.7.0 \
   https://github.com/LamantinAI/kaeru-vendor.git
 ```
 
-`main` carries the most recent one; the tags are what you should pin to.
-
-## Contents of a tag
+## Contents
 
 | | |
 |---|---|
@@ -46,6 +43,4 @@ git clone --depth 1 --branch v0.7.0 \
 
 Do not commit here by hand. The tree is produced by
 `contrib/offline/publish-vendor.sh` in the main repository, from a clean
-checkout of the tag being released. A published tag is immutable: if a vendor
-tree is wrong, the fix is a new version, because someone has already built
-against the old one.
+checkout of the tag being released.

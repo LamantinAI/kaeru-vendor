@@ -1,0 +1,10 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/lawless-m/graph?rev=790ef623533fa39574ddd11308e3abc3993c0994"]
+git = "https://github.com/lawless-m/graph"
+rev = "790ef623533fa39574ddd11308e3abc3993c0994"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "/tmp/kaeru-vendor-publish/staging/vendor"
