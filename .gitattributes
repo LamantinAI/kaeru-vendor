@@ -1,0 +1,4 @@
+# Vendored crate sources are checksummed byte-for-byte against Cargo.lock.
+# Any line-ending translation changes those bytes and every build fails with
+# "checksum mismatch" pointing at a crate nobody touched. Do not remove.
+* -text
