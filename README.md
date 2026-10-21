@@ -26,7 +26,7 @@ matches that release's `Cargo.lock` byte for byte. Fetch one release without
 paying for the rest:
 
 ```sh
-git clone --depth 1 --branch v0.7.3 \
+git clone --depth 1 --branch v0.8.0 \
   https://github.com/LamantinAI/kaeru-vendor.git
 ```
 
